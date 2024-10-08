@@ -1,23 +1,11 @@
-# FastAPI with standard features (including pydantic, starlette, etc.)
-fastapi[standard]==0.95.0  
-
-# LightGBM for your model
-lightgbm==3.3.2
-
-# Joblib for model saving and loading
-joblib==1.2.0
-
-# Pandas for data manipulation
+fastapi==0.95.0
+uvicorn==0.18.3
 pandas==1.5.3
-
-# Uvicorn ASGI server for running FastAPI
-uvicorn[standard]==0.18.3
-
-# Optional: Scikit-learn for evaluation metrics (f1_score)
+numpy==1.24.0
 scikit-learn==1.1.3
-
-# Optional: Matplotlib for plotting (if needed)
+lightgbm==3.3.2
 matplotlib==3.6.1
-
-# Optional: seaborn for visualizations (if needed)
 seaborn==0.12.0
+joblib==1.2.0
+python-dotenv==1.0.1
+pydantic==1.10.18
