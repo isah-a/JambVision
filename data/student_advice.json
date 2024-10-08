@@ -1,0 +1,26 @@
+[
+    {
+        "Parameter": "Location",
+        "Advice": "Your location may affect access to resources and quality of education. Consider joining online study groups, attending extra classes, or moving closer to better educational facilities if possible. Seek guidance from mentors or teachers who have experience helping students from your area."
+    },
+    {
+        "Parameter": "Parental Occupation",
+        "Advice": "Regardless of your parents’ occupation, your dedication to study matters most. Seek support from school counselors, scholarship programs, and external tutors to guide you. If resources are limited, explore free online educational platforms like Khan Academy or Coursera to get the help you need."
+    },
+    {
+        "Parameter": "Study Hours",
+        "Advice": "If you are studying for fewer than 4 hours a day, consider revising your schedule to include more focused study time. Prioritize your weak subjects and set daily study goals. Aim to study at least 5-6 hours, especially during weekends."
+    },
+    {
+        "Parameter": "Internet Access",
+        "Advice": "If you lack internet access, find alternative ways to get learning resources, like using books or visiting public libraries with internet access. Many communities have access centers or study groups where you can collaborate and share resources."
+    },
+    {
+        "Parameter": "Understanding of Subjects",
+        "Advice": "If you have difficulty understanding subjects, focus on the basics before moving to advanced topics. Use visual aids and interactive learning methods to help with comprehension. Ask your teachers for additional support or hire a tutor."
+    },
+    {
+        "Parameter": "Adequate JAMB Preparation",
+        "Advice": "Adequate preparation is key to success in JAMB. Consider joining a JAMB-focused tutorial, taking mock exams, and regularly practicing past questions. Ensure you are familiar with the exam format and manage your time efficiently during practice sessions."
+    }
+]
