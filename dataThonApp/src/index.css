@@ -1,0 +1,31 @@
+.marquee {
+    width: 100%; /* Make it take full width */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent line breaks */
+    box-sizing: border-box; /* Include padding/border in element's total width */
+    position: relative; /* Enable positioning */
+}
+
+.marquee h3 {
+    display: inline-block; /* Make the text inline for scrolling */
+    animation: marquee 30s linear infinite; /* Adjust duration for speed */
+    padding-left: 100%; /* Start the text off the left side */
+    padding-top: 10px;
+    color: #f5ba13; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Black outline */
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left fully */
+    }
+}
+

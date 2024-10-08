@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(211, 211, 211);
+  padding: 0 16px;
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 20px 0 #f5ba13;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+img {
+  padding: 5px;
+  padding-top: 10px;
+  box-shadow: 0 0 20px 0 rgb(211, 211, 211);
+}
+
+h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Add this to your App.css or a separate CSS file */
+/* Add this to your App.css or a separate CSS file */
+.dash-board {
+  padding: 20px;
+}
+
+.custom-dropdown {
+  width: 100%; /* Full width for responsiveness */
+  max-width: 400px; /* Maximum width */
+  margin: 20px auto; /* Increased margin for more space around the dropdown */
+  border-radius: 20px;
+  border: #f5ba13 5px solid;
+}
+
+/* Add padding to each dropdown for inner spacing */
+.custom-dropdown .MuiSelect-root {
+  background-color: #f0f0f0; /* Set your desired background color */
+  color: #333; /* Set your desired text color */
+  padding: 10px; /* Add padding for inner spacing */
+}
+
+/* Change the color of the InputLabel */
+.custom-dropdown .MuiInputLabel-root {
+  color: #333; /* Set your desired label text color */
+}
+
+/* Change the color of the MenuItem */
+.custom-dropdown .MuiMenuItem-root {
+  color: #333; /* Set your desired menu item text color */
+}
+
+/* Optional: Change the hover color for MenuItems */
+.custom-dropdown .MuiMenuItem-root:hover {
+  background-color: #e0e0e0; /* Set your desired hover background color */
+}
+
+/* Button styles */
+.button {
+  width: 300px; /* Full width */
+  height: 50px; /* Height */
+  color: #fff; /* Text color */
+  background-color: #f5ba13; /* Button color */
+  border-radius: 20px; /* Rounded corners */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  background-color: #3C3D37; /* Footer background color */
+}
+
+footer p {
+  color: #ccc;
+}
+
+.drop-down-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  margin: 50px; /* Optional: outer margin for the container */
+  padding: 20px; /* Optional: inner padding for the container */
+  gap: 20px; /* Space between items in the grid */
+}
+
+.custom-dropdown {
+  width: 100%; /* Full width for responsiveness */
+  max-width: 400px; /* Maximum width */
+  border-radius: 20px; /* Rounded corners */
+  border: #f5ba13 5px solid; /* Dropdown border */
+}
+
+/* Additional styles as needed */
+
+
+.success-message {
+  margin-top: 20px; /* Add margin for spacing */
+  color: green; /* Success message color */
+  text-align: center; /* Center the success message */
+}
+
+
+/* iPad and Tablet Styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 0 16px; /* Standard padding for tablets */
+  }
+
+  header {
+    padding: 20px 30px; /* Adjusted padding for tablets */
+  }
+
+  header h1 {
+    font-size: 2em; /* Larger font size for iPad */
+  }
+
+  img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  h2 {
+    padding-top: 40px; /* Adjusted padding for tablets */
+    font-size: 1.5em; /* Responsive font size for iPad */
+  }
+
+  .dash-board {
+    padding: 15px; /* Padding adjustment for tablets */
+  }
+
+  .custom-dropdown {
+    max-width: 70%; /* Max width for tablets */
+    margin: 15px auto; /* Centered with adjusted margin */
+ }
+
+  .button {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit width for larger screens */
+    margin: 15px auto; /* Centered with adjusted margin */
+  }
+
+  footer {
+    text-align: center; /* Center text in footer */
+    width: 100%; /* Full width */
+    height: 100px; /* Adjust height for tablets */
+    background-color: #3C3D37; /* Footer background color */
+  }
+
+  footer p {
+    font-size: 1em; /* Slightly larger font size for tablets */
+    color: #ccc; /* Text color for footer */
+  }
+
+  .drop-down-container {
+    margin: 30px 0; /* Increased outer margin for tablets */
+    padding: 15px; /* Adjusted inner padding for tablets */
+    position: relative;
+    left: 100px;
+  }
+
+  .success-message {
+    font-size: 1em; /* Adjusted font size for tablets */
+  }
+}
+/* Mobile Styles */
+/* Mobile Styles */
+@media (max-width: 600px) {
+  body {
+    padding: 0 8px; /* Reduced padding for mobile */
+  }
+
+  header {
+    padding: 16px 20px; /* Adjusted padding for smaller screens */
+  }
+
+  header h1 {
+    font-size: 1.5em; /* Responsive font size for mobile */
+  }
+
+  img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  h2 {
+    padding-top: 30px; /* Adjusted padding for mobile */
+    font-size: 1.3em; /* Responsive font size */
+  }
+
+  .dash-board {
+    padding: 10px; /* Reduced padding for mobile */
+  }
+
+  .custom-dropdown {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 90%; /* Max width for mobile */
+    margin: 10px auto; /* Centered with reduced margin */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the dropdown */
+  }
+
+  .button {
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limit width for larger screens */
+    margin: 10px auto; /* Centered with reduced margin */
+  }
+
+  footer {
+    text-align: center; /* Center text in footer */
+    width: 100%; /* Full width */
+    height: 80px; /* Adjust height for mobile */
+    background-color: #3C3D37; /* Footer background color */
+    position: relative; /* Ensure it stays at the bottom */
+    bottom: 0; /* Align at the bottom */
+    padding-left: 50px;
+  }
+
+  footer p {
+    font-size: 0.9em; /* Slightly smaller font size for mobile */
+    color: #ccc; /* Text color for footer */
+  }
+
+  .drop-down-container {
+    margin: 20px 0; /* Reduced outer margin for mobile */
+    padding: 10px; /* Reduced inner padding for mobile */
+  }
+
+  .success-message {
+    font-size: 0.9em; /* Adjusted font size for mobile */
+  }
+}
