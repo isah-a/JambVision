@@ -1,6 +1,7 @@
 import pandas as pd
 import lightgbm as lgb
 from fastapi import FastAPI, Form
+from fastapi.middleware.cors import CORSMiddleware
 import joblib
 from utils import *
 
@@ -8,6 +9,15 @@ from utils import *
 model = joblib.load('./models/lgb_model.pkl')
 
 app = FastAPI()
+
+# Add CORS middleware to your FastAPI app
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins; you can restrict it to specific origins if needed
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all HTTP methods (GET, POST, etc.)
+    allow_headers=["*"],  # Allows all headers; you can restrict it to specific headers if needed
+)
 
 # Update the POST method to handle form input
 @app.post("/predict/")
